@@ -1,0 +1,8 @@
+vendor/
+app/config/config.php
+app/cache/
+web/css/
+web/js/
+web/fonts/
+web/uploads/
+*~

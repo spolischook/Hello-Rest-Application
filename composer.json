@@ -1,0 +1,15 @@
+{
+    "require": {
+        "silex/silex": "~1.2",
+        "guzzle/guzzle": "3.8.*@dev",
+        "phpunit/phpunit": "4.2.*@dev",
+        "phpunit/phpunit-mock-objects": "2.2.*@dev",
+        "dflydev/doctrine-orm-service-provider": "1.0.*@dev",
+        "symfony/serializer": ">=2.3,<2.6-dev",
+        "moust/silex-cache": "1.0.*@dev"
+    },
+    "autoload": {
+        "psr-0": {"Kotoblog": "src/"}
+    }
+}
+

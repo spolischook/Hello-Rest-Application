@@ -1,0 +1,31 @@
+Kotoblog\Entity\Article:
+    type: entity
+    table: articles
+    indexes:
+        id_index:
+            columns: [ id ]
+        slug_index:
+            columns: [ slug ]
+    id:
+        id:
+            type: integer
+            generator:
+                strategy: AUTO
+    fields:
+        title:
+            type: string
+        slug:
+            type: string
+        text:
+            type: text
+        image:
+            type: string
+            nullable: true
+        publish:
+            type: boolean
+        weight:
+            type: integer
+            nullable: true
+        createdAt:
+            type: datetime
+            column: created_at
